@@ -152,3 +152,12 @@
 
         Remove the deprecated ``litestar.contrib.repository`` module. Code still using imports
         from this module should switch to using ``litestar.repository``.
+
+    .. change:: Remove deprecated ``litestar.contrib.<namespace>`` module
+        :type: feature
+        :breaking:
+        :pr: <pr number>
+        :issue: 4308
+
+        Remove the deprecated ``litestar.contrib.sqlalchemy`` module. Code still using imports
+        from this module should switch to using ``litestar.plugins.sqlalchemy``.
